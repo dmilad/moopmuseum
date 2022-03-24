@@ -2,7 +2,7 @@
 ## Basic Configuration
 ## -----------------------------------------------
 
-title = "Hugo Story"
+title = "Moop Museum"
 theme = "hugo-story"
 
 
@@ -11,7 +11,7 @@ theme = "hugo-story"
 ## -----------------------------------------------
 
 disableKinds = ["taxonomy", "taxonomyTerm", "section"]
-# googleAnalytics = "your-google-analytics-id"
+googleAnalytics = "G-36NWVX0RP8"
 
 
 ## -----------------------------------------------
@@ -20,13 +20,10 @@ disableKinds = ["taxonomy", "taxonomyTerm", "section"]
 
 [Params]
   description = "A (modular, highly tweakable) responsive one-page theme for Hugo"
-  logo = "images/banner.jpg"
+  logo = "images/momu_logo.PNG"
   favicon = true
 
 [Params.social]
-  github = "https://github.com/caressofsteel/"
-  twitter = "https://twitter.com/caressofsteel_"
-  email = "caressofsteel@protonmail.com"
-  instagram = "https://instagram.com"
-  linkedin = "https://linkedin.com"
-  telegram = "https://telegram.org"
+  github = "https://github.com/dmilad/"
+  email = "moopmuseum@gmail.com"
+  instagram = "https://instagram.com/moopmuseum"
