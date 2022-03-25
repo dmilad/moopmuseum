@@ -3,9 +3,14 @@
     <div class="content">
         {{ with .title }}<h1>{{ . }}</h1>{{ end }}
         {{ with .subtitle }}<p class="major">{{ . | safeHTML }}</p>{{ end }}
-        <!-- {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }} -->
+        {{/*  {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }}  */}}
     </div>
-    {{ with .image }}<div class="image">
-        <img src="{{.}}" alt="MoMu" />
-    </div>{{end}}
+    
+    {{ with .image }}
+    <div class="image">
+        {{/*  <img src="{{.}}" alt="MoMu" />  */}}
+        {{ partial "momu.svg"}}
+    </div>
+    
+    {{end}}
 </section>

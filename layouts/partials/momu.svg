@@ -1,0 +1,25 @@
+<svg 
+    version="1.1" 
+    xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" 
+    height="100%" 
+    width="100%" 
+    viewBox="0 0 1000.000000 1000.000000"
+    preserveAspectRatio="xMidYMid meet"
+    fill="#5ce1e6"
+    style="background-color: #ff00b8;">
+  <style>
+    .moop { 
+        font-family: 'Bellota', cursive;
+        font-size: 10.0em;
+        font-weight: 900;
+        text-anchor: middle;
+        }
+  </style>
+
+  <text x="50%" y="50%" class="moop">
+  <tspan x="50%" dy="0">MO</tspan>
+  <tspan x="50%" dx="-0.15em" dy="0.8em">MU</tspan>
+  <!-- MoMu -->
+  </text>
+</svg>
