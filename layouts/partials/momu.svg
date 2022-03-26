@@ -9,6 +9,7 @@
     fill="#5ce1e6"
     style="background-color: #ff00b8;">
   <style>
+    @import url("http://fonts.googleapis.com/css?family=Bellota");
     .moop { 
         font-family: 'Bellota', cursive;
         font-size: 10.0em;
@@ -16,10 +17,8 @@
         text-anchor: middle;
         }
   </style>
-
   <text x="50%" y="50%" class="moop">
-  <tspan x="50%" dy="0">MO</tspan>
-  <tspan x="50%" dx="-0.15em" dy="0.8em">MU</tspan>
-  <!-- MoMu -->
+    <tspan x="50%">MO</tspan>
+    <tspan x="50%" dx="-0.16em" dy="0.75em">MU</tspan>
   </text>
 </svg>
