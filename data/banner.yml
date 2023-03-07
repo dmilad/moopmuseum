@@ -2,10 +2,15 @@
 style: "style1 orient-right content-align-center image-position-left fullscreen onload-image-fade-in onload-content-fade-in"
 title : "MOOP Museum"
 subtitle: |
-  Coming to BRC August 2022
-  <br /><b>Dalí & 3:45!!</b>
+  <br />Bring your cool MOOP to the museum and our curator will evaluate it for exhibition.
+  <br />All items available on permanent loan.
   <br />
-  <br /><a href="https://forms.gle/fp8W2k5pPeKVLGgg6" target="_blank" rel="noopener noreferrer">>> Submit your moop for evaluation <<</a>
+  <br />Open 24 hours daily
+  <br />Aug. 27 to Sept. 1, 2023
+  <br />Black Rock City, Nevada
+  <br />
+  <br /><a href="https://www.instagram.com/moopmuseum/">
+    <img src="images/insta.png" alt="Insta" style="width:30px;height:30px;"></a>
 content : |
   hello
 button:
