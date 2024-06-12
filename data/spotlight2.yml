@@ -1,9 +1,14 @@
 ####################### Spotlight #########################
-style: "style1 orient-left content-align-left image-position-center onscroll-image-fade-in"
-title : "Spotlight"
+style: "style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
+title : "What’s On"
 content: |
-  This is also a <strong>Spotlight</strong> element, and it's here because this demo would look a bit empty with just one spotlight. Like all spotlights, you can customize its <span class="demo-controls">appearance with a number of modifiers</span>, as well as assign it an optional <code>onload</code> or <code>onscroll</code> transition modifier (<a href="#reference-spotlight">details</a>).
+  <h3>Rotating Exhibit</h3>
+  MoMu features a curated display of the finest, museum-caliber MOOP around. Our exhibit is always morphing. MOOP collectors bring us their finds for appraisal and intake into our collection. With small exceptions, everything on the walls is available for permanent loan if patrons see something they’d like to take home with them.
+  <br/>
+  <br/>
+  <h3>Permanent Exhibit</h3>
+  A few select, high-value MOOP items are part of our permanent collection and not available for loan. Our permanent exhibit also includes educational elements and a spoken-word MOOP receptacle, where patrons can safely dispose of toxic verbal MOOP to prevent it from contaminating the playa.
 button: 
   label: "Learn More"
   link: "#"
-image: "images/spotlight02.jpg"
+image: "images/neon.jpg"

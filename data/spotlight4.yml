@@ -1,0 +1,10 @@
+####################### Spotlight #########################
+style: "style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
+id: "first"
+title : "What's MOOP?"
+content: |
+  MOOP, which stands for “matter out of place,” is Burning Man lingo for anything in a spot it’s not supposed to be. It includes what you’d think of as litter, plus lost and forgotten items that can be super cool and easily loved by someone else. The latter is what you’ll find on display at MoMu.
+button: 
+  label: "Learn More"
+  link: "#"
+image: "images/whatsmoop.jpg"
