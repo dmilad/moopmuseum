@@ -19,7 +19,7 @@ googleAnalytics = "G-36NWVX0RP8"
 ## -----------------------------------------------
 
 [Params]
-  description = "A (modular, highly tweakable) responsive one-page theme for Hugo"
+  description = "Moop Museum is a Burning Man theme camp"
   logo = "images/momu_logo.PNG"
   favicon = true
 
