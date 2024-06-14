@@ -2,7 +2,7 @@
 ## Basic Configuration
 ## -----------------------------------------------
 
-title = "Moop Museum"
+title = "MOOP Museum"
 theme = "hugo-story"
 
 
@@ -19,7 +19,7 @@ googleAnalytics = "G-36NWVX0RP8"
 ## -----------------------------------------------
 
 [Params]
-  description = "Moop Museum is a Burning Man theme camp"
+  description = "MOOP Museum is a Burning Man theme camp"
   logo = "images/momu_logo.PNG"
   favicon = true
 
