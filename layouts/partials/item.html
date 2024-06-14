@@ -1,6 +1,5 @@
 <section>
     <span class="icon {{ .style }}"></span>
     <h3>{{ .name }}</h3>
-    <p>{{ .content }}
-    <br/>{{ .content_line2 }}<a target="_blank" href="{{ .link }}">{{ .link_text }}</a></p>
+    {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }}
 </section>

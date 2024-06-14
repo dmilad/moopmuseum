@@ -44,8 +44,7 @@ items:
     
   # feature item loop
   - name : ""
-    content : "“Out.”"
-    content_line2 : "– "
-    link : "https://brcweekly.com/BRCWeekly2022_int.pdf"
-    link_text : "BRC Weekly, 2022"
+    content : |
+      “Out.” 
+      <br/>- <a target="_blank" href="https://brcweekly.com/BRCWeekly2022_int.pdf">BRC Weekly, 2022</a>
     style : "solid style1 minor fa-quote-right"
