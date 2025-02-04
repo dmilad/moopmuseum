@@ -3,7 +3,7 @@ style: "style1 orient-left content-align-left image-position-center onscroll-ima
 id: "first"
 title : "In the News"
 content: |
-  <a target="_blank" href="https://www.sfgate.com/sf-culture/article/burning-man-trash-museum-19734481.php">The weirdest trash found at Burning Man</a>
+  Learn more about MoMu in this 2024 SFGATE article: <a target="_blank" href="https://www.sfgate.com/sf-culture/article/burning-man-trash-museum-19734481.php">The weirdest trash found at Burning Man</a>
 button: 
   label: "Learn More"
   link: "#"
