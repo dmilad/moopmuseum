@@ -1,0 +1,10 @@
+####################### Spotlight #########################
+style: "style1 orient-left content-align-left image-position-center onscroll-image-fade-in"
+id: "first"
+title : "In the News"
+content: |
+  <a target="_blank" href="https://www.sfgate.com/sf-culture/article/burning-man-trash-museum-19734481.php">The weirdest trash found at Burning Man</a>
+button: 
+  label: "Learn More"
+  link: "#"
+image: "images/alison_haley_sfgate.webp"
