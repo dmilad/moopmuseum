@@ -10,7 +10,7 @@ theme = "hugo-story"
 ## Hugo Built-in Features
 ## -----------------------------------------------
 
-disableKinds = ["taxonomy", "taxonomyTerm", "section"]
+disableKinds = ["taxonomy", "section"]
 
 
 ## -----------------------------------------------
