@@ -11,7 +11,15 @@ theme = "hugo-story"
 ## -----------------------------------------------
 
 disableKinds = ["taxonomy", "taxonomyTerm", "section"]
-googleAnalytics = "G-36NWVX0RP8"
+
+
+## -----------------------------------------------
+## Services Configuration
+## -----------------------------------------------
+
+[services]
+  [services.googleAnalytics]
+    ID = "G-36NWVX0RP8"
 
 
 ## -----------------------------------------------
