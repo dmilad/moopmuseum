@@ -11,16 +11,15 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Bellota&display=swap" rel="stylesheet">
 	{{ template "_internal/google_analytics.html" . }}
-	{{ template "_internal/google_analytics_async.html" . }}
 	<!-- CSS -->
-	{{ if .Site.IsServer }}
+	{{ if hugo.IsServer }}
 	{{ $style := resources.Get "sass/main.scss" | resources.ExecuteAsTemplate "scss/main.scss" . | toCSS (dict "targetPath" "assets/css/main.css" "outputStyle" "compressed" "enableSourceMap" false) }}
 	<link rel="stylesheet" href="{{ ($style).RelPermalink }}">
 	{{ else }}
 	{{ $style := resources.Get "sass/main.scss" | resources.ExecuteAsTemplate "scss/main.scss" . | toCSS (dict "targetPath" "assets/css/main.css" "enableSourceMap" false) }}
 	<link rel="stylesheet" href="{{ ($style | minify).RelPermalink }}">
 	{{ end }}
-	{{ if .Site.IsServer }}
+	{{ if hugo.IsServer }}
 	{{ $noscript := resources.Get "sass/noscript.scss" | resources.ExecuteAsTemplate "noscript.scss" . | toCSS (dict "targetPath" "assets/css/noscript.css" "enableSourceMap" false) }}
 	<noscript><link rel="stylesheet" href="{{ ($noscript).RelPermalink }}" /></noscript>
 	{{ else }}
